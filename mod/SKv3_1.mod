@@ -22,12 +22,12 @@ ASSIGNED	{
 	ek	(mV)
 	ik	(mA/cm2)
 	gSKv3_1	(S/cm2)
-	mInf
-	mTau
+	mInf	(1)
+	mTau	(ms)
 }
 
 STATE	{ 
-	m
+	m      (1)
 }
 
 BREAKPOINT	{
@@ -47,8 +47,8 @@ INITIAL{
 }
 
 PROCEDURE rates(){
+		mInf =  1/(1+exp(((v -(18.700(mV)))/(-9.700(mV)))))
+		mTau =  0.2*20.000(ms)/(1+exp(((v -(-46.560(mV)))/(-44.140(mV)))))
 	UNITSOFF
-		mInf =  1/(1+exp(((v -(18.700))/(-9.700))))
-		mTau =  0.2*20.000/(1+exp(((v -(-46.560))/(-44.140))))
 	UNITSON
 }

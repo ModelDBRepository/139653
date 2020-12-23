@@ -23,7 +23,7 @@ ASSIGNED	{
 	ik	(mA/cm2)
 	gIm	(S/cm2)
 	mInf
-	mTau
+	mTau    (ms)
 	mAlpha
 	mBeta
 }

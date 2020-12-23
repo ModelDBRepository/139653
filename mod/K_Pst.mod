@@ -26,9 +26,9 @@ ASSIGNED	{
 	ik	(mA/cm2)
 	gK_Pst	(S/cm2)
 	mInf
-	mTau
+	mTau    (ms)
 	hInf
-	hTau
+	hTau    (ms)
 }
 
 STATE	{

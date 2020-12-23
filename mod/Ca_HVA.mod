@@ -22,14 +22,14 @@ ASSIGNED	{
 	eca	(mV)
 	ica	(mA/cm2)
 	gCa_HVA	(S/cm2)
-	mInf
-	mTau
-	mAlpha
-	mBeta
-	hInf
-	hTau
-	hAlpha
-	hBeta
+	mInf    (1)
+	mTau    (ms)
+	mAlpha  (1)
+	mBeta   (1)
+	hInf    (1)
+	hTau    (ms)
+	hAlpha  (1)
+	hBeta   (1)
 }
 
 STATE	{ 

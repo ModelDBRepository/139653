@@ -25,9 +25,9 @@ ASSIGNED	{
 	ica	(mA/cm2)
 	gCa_LVAst	(S/cm2)
 	mInf
-	mTau
+	mTau    (ms)
 	hInf
-	hTau
+	hTau    (ms)
 }
 
 STATE	{

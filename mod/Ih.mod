@@ -23,7 +23,7 @@ ASSIGNED	{
 	ihcn	(mA/cm2)
 	gIh	(S/cm2)
 	mInf
-	mTau
+	mTau    (ms)
 	mAlpha
 	mBeta
 }

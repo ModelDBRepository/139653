@@ -25,11 +25,11 @@ ASSIGNED	{
 	ina	(mA/cm2)
 	gNap_Et2	(S/cm2)
 	mInf
-	mTau
+	mTau    (ms)
 	mAlpha
 	mBeta
 	hInf
-	hTau
+	hTau    (ms)
 	hAlpha
 	hBeta
 }

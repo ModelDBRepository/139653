@@ -23,11 +23,11 @@ ASSIGNED	{
 	ina	(mA/cm2)
 	gNaTs2_t	(S/cm2)
 	mInf
-	mTau
+	mTau    (ms)
 	mAlpha
 	mBeta
 	hInf
-	hTau
+	hTau    (ms)
 	hAlpha
 	hBeta
 }

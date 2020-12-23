@@ -25,7 +25,7 @@ PARAMETER {
 ASSIGNED {
          zInf
          ik            (mA/cm2)
-         gSK_E2	       (S/cm2)
+         gSK_E2	       (mho/cm2)
 }
 
 STATE {
@@ -44,10 +44,10 @@ DERIVATIVE states {
 }
 
 PROCEDURE rates(ca(mM)) {
-          if(ca < 1e-7){
-	              ca = ca + 1e-07
+          if(ca < 1e-7 (mM)){
+	              ca = ca + 1e-07 (mM)
           }
-          zInf = 1/(1 + (0.00043 / ca)^4.8)
+          zInf = 1/(1 + (0.00043 (mM)/ ca)^4.8)
 }
 
 INITIAL {
