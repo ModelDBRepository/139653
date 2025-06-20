@@ -55,7 +55,4 @@ The three morphologies used in the paper.
 
 20130226 added `critical_frequency.hoc` to simulationcode folder  
 20130330 `critical_frequency.hoc` file updated with a comment regarding a difference between 32 and 64 bit NEURON environments.
-
----
-
-2025-06-20: Converted README to Markdown.
+20250620 Converted README to Markdown.
